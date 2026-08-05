@@ -391,7 +391,7 @@ if (-not $destinationSasKey.StartsWith('?')) { $destinationSasKey = "?$destinati
     "enable_elastic_disk": true,
     "enable_local_disk_encryption": false,
     "cluster_source": "UI",
-    "data_security_mode": "NONE",
+    "data_security_mode": "SINGLE_USER",
     "runtime_engine": "STANDARD"
 }'
 
